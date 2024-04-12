@@ -26,15 +26,12 @@ public class Selenium {
 		driver.findElement(By.xpath("//input[@id='csex2']")).click();
 		//CLASS
 		driver.findElement(By.className("//DIV[@class='hicon'"));
-		
 		//LINK
-	    driver.findElement(By.linkText("Mortgage Calculator"));
-
-        //PARTIAL LINK
-	    driver.findElement(By.partialLinkText("Financial"));
-
-	    //TAG  NAME
-	    driver.findElement(By.tagName("body"));  
+	        driver.findElement(By.linkText("Mortgage Calculator"));
+               //PARTIAL LINK
+	        driver.findElement(By.partialLinkText("Financial"));
+	       //TAG  NAME
+	        driver.findElement(By.tagName("body"));  
 	}
 
 }
